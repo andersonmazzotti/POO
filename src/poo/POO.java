@@ -15,7 +15,33 @@ public class POO {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        
+        Carro meuCarro = new Carro();
+        
+        meuCarro.setCor("Vermelho");
+        meuCarro.setPlaca("AMZ");
+        meuCarro.setTipo("Gol");
+        meuCarro.setnumPortas(4);
+
+        System.out.println("---------Carro-------");
+        System.out.println("Cor: "+meuCarro.getCor());
+        System.out.println("Placa: "+meuCarro.getPlaca());
+        System.out.println("Modelo: "+meuCarro.getTipo());
+        System.out.println("Portas: "+meuCarro.getnumPortas());
+        
+        
+        Pessoa minhaPessoa = new Pessoa();
+        
+        minhaPessoa.setNome("Anderson");
+        minhaPessoa.setIdade(25);
+        minhaPessoa.setPlaca("Castanho");
+        minhaPessoa.setbioTipo("Ectomorfo");
+        
+        
+        
+     
     }
+    
     
 }

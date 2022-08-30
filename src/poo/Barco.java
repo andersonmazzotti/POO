@@ -15,6 +15,8 @@ public class Barco {
     String Modelo;
     String Cor;
     double Tamanho;
+    int ano;
+    
     
     
     
@@ -49,5 +51,17 @@ public class Barco {
     this.Tamanho=Tamanho;
     
     }
+    
+    public int getAno(){
+    return ano;
+    }
+    
+    public void setAno(int ano){
+    
+    this.ano=ano;
+    
+    }
+    
+    
     
 }

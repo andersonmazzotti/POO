@@ -54,7 +54,7 @@ public class Carro {
         return numPortas;
     }
     
-    public void setnumPortas(String Portas){
+    public void setnumPortas(int numPortas){
     
     this.numPortas=numPortas;
     
