@@ -17,6 +17,19 @@ public class Pessoa {
     int idade;
     
     
+    
+     void imprimePessoa() {
+
+        System.out.println("---------Pessoa-------");
+        System.out.println("Nome: " +Nome);
+        System.out.println("BioTipo : " + bioTipo);
+        System.out.println("Cabelo : " + corCabelo);
+        System.out.println("Idade: " + idade);
+    }
+    
+    
+    
+    
     public String getNome(){
         return Nome;
     }
@@ -32,7 +45,7 @@ public class Pessoa {
         return bioTipo;
     }
     
-    public void setbioTipo(String cor){
+    public void setbioTipo(String bioTipo){
     
     this.bioTipo=bioTipo;
     
@@ -43,7 +56,7 @@ public class Pessoa {
         return corCabelo;
     }
     
-    public void setPlaca(String Cabelo){
+    public void setPlaca(String corCabelo){
     
     this.corCabelo=corCabelo;
     

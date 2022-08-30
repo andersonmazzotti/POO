@@ -20,6 +20,17 @@ public class Barco {
     
     
     
+     void imprimeBarco() {
+
+        System.out.println("---------Barco-------");
+        System.out.println("Modelo : " +Modelo);
+        System.out.println("Cor : " + Cor);
+        System.out.println("Tamanho : " + Tamanho);
+        System.out.println("Ano : " + ano);
+    }
+    
+    
+    
     public String getModelo(){
         return Modelo;
     }
@@ -35,7 +46,7 @@ public class Barco {
         return Cor;
     }
     
-    public void setCor(String cor){
+    public void setCor(String Cor){
     
     this.Cor=Cor;
     

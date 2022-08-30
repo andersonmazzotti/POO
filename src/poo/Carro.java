@@ -10,55 +10,60 @@ package poo;
  * @author anderson.mazzotti
  */
 public class Carro {
-    
+
     String tipo;
     String cor;
     String placa;
-    int numPortas; 
+    int numPortas;
+
+    void imprimeDadosCarro() {
+
+        System.out.println("---------Carro-------");
+        System.out.println("Cor: " +cor);
+        System.out.println("Placa: " + placa);
+        System.out.println("Modelo: " + tipo);
+        System.out.println("Portas: " + numPortas);
+    }
     
-    
-    public String getTipo(){
+
+    public String getTipo() {
         return tipo;
     }
-    
-    
-    public void setTipo(String tipo){
-    
-    this.tipo=tipo;
-    
+
+    public void setTipo(String tipo) {
+
+        this.tipo = tipo;
+
     }
-    
-     public String getCor(){
+
+    public String getCor() {
         return cor;
     }
-    
-    public void setCor(String cor){
-    
-    this.cor=cor;
-    
+
+    public void setCor(String cor) {
+
+        this.cor = cor;
+
     }
-    
-    
-    public String getPlaca(){
+
+    public String getPlaca() {
         return placa;
     }
-    
-    public void setPlaca(String placa){
-    
-    this.placa=placa;
-    
+
+    public void setPlaca(String placa) {
+
+        this.placa = placa;
+
     }
-    
-    
-     public int getnumPortas(){
+
+    public int getnumPortas() {
         return numPortas;
     }
-    
-    public void setnumPortas(int numPortas){
-    
-    this.numPortas=numPortas;
-    
+
+    public void setnumPortas(int numPortas) {
+
+        this.numPortas = numPortas;
+
     }
-    
-    
+
 }

@@ -24,11 +24,15 @@ public class POO {
         meuCarro.setTipo("Gol");
         meuCarro.setnumPortas(4);
 
+        /*
+        
         System.out.println("---------Carro-------");
         System.out.println("Cor: "+meuCarro.getCor());
         System.out.println("Placa: "+meuCarro.getPlaca());
         System.out.println("Modelo: "+meuCarro.getTipo());
         System.out.println("Portas: "+meuCarro.getnumPortas());
+        */
+        
         
         
         Pessoa minhaPessoa = new Pessoa();
@@ -42,10 +46,17 @@ public class POO {
         Barco meuBarco = new Barco();
         
         meuBarco.setModelo("Titanic");
+        meuBarco.setCor("Marrom");
         meuBarco.setAno(1940);
         meuBarco.setTamanho(1.000);
         
         
+        
+        
+        
+        meuCarro.imprimeDadosCarro();
+        minhaPessoa.imprimePessoa();
+        meuBarco.imprimeBarco();
         
         
      
