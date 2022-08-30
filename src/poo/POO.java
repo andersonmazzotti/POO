@@ -53,12 +53,18 @@ public class POO {
         
         
         
+        /*METODO IMPRIMIR
         
         meuCarro.imprimeDadosCarro();
         minhaPessoa.imprimePessoa();
         meuBarco.imprimeBarco();
+        */
         
         
+        double a = 3, b=2;
+        
+        
+        System.out.println("Resultado é: "+Calculo.elevar(b, a));
      
     }
     
