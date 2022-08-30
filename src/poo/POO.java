@@ -39,6 +39,14 @@ public class POO {
         minhaPessoa.setbioTipo("Ectomorfo");
         
         
+        Barco meuBarco = new Barco();
+        
+        meuBarco.setModelo("Titanic");
+        meuBarco.setAno(1940);
+        meuBarco.setTamanho(1.000);
+        
+        
+        
         
      
     }
